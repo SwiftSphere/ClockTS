@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		207BBF312D3EA70E00323916 /* 7120-download-iphone-6-original-ringtone-42676.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 207BBF302D3EA70E00323916 /* 7120-download-iphone-6-original-ringtone-42676.mp3 */; };
 		209B765A2D3D1C130080B7DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B76592D3D1C130080B7DD /* AppDelegate.m */; };
 		209B765D2D3D1C130080B7DD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B765C2D3D1C130080B7DD /* SceneDelegate.m */; };
 		209B76602D3D1C130080B7DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B765F2D3D1C130080B7DD /* ViewController.m */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		207BBF302D3EA70E00323916 /* 7120-download-iphone-6-original-ringtone-42676.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "7120-download-iphone-6-original-ringtone-42676.mp3"; sourceTree = "<group>"; };
 		209B76552D3D1C130080B7DD /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209B76582D3D1C130080B7DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		209B76592D3D1C130080B7DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				209B76662D3D1C140080B7DD /* LaunchScreen.storyboard */,
 				209B76692D3D1C140080B7DD /* Info.plist */,
 				209B766A2D3D1C140080B7DD /* main.m */,
+				207BBF302D3EA70E00323916 /* 7120-download-iphone-6-original-ringtone-42676.mp3 */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				209B76652D3D1C140080B7DD /* Assets.xcassets in Resources */,
+				207BBF312D3EA70E00323916 /* 7120-download-iphone-6-original-ringtone-42676.mp3 in Resources */,
 				209B76682D3D1C140080B7DD /* Base in Resources */,
 				209B76632D3D1C130080B7DD /* Base in Resources */,
 			);

@@ -8,14 +8,19 @@
 #import "AlarmViewController.h"
 
 @interface AlarmViewController ()
-
+@property (nonatomic, strong) UILabel *headerLabel;
 @end
 
 @implementation AlarmViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
- 
+    self.headerLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 80, self.view.frame.size.width, 50)];
+    self.headerLabel.text = @"SOON!";
+    self.headerLabel.textAlignment = NSTextAlignmentCenter;
+    self.headerLabel.textColor = [UIColor orangeColor];
+    self.headerLabel.font = [UIFont boldSystemFontOfSize:30];
+    [self.view addSubview:self.headerLabel];
     // Do any additional setup after loading the view.
 }
 
